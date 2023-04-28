@@ -50,3 +50,11 @@
     gap: 13px;
     padding-right: 59px;
 }
+
+.nav-menu .item-one, .nav-menu .item-two, .nav-menu .item-three {
+    display: flex;
+}
+
+.nav-menu .item-one {
+    padding-top: 1px;
+}
