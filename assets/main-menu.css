@@ -16,10 +16,11 @@
     max-width: 1440px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .img-logo-bylt {
-    padding: 13px 0px 0px 46px;
+    padding-left: 46px;
 }
 
 .menu-options {
@@ -38,11 +39,10 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-    padding: 22px;
 }
 
 .nav-menu {
     display: flex;
     gap: 13px;
-    padding: 23px 59px 0px 0px;
+    padding-right: 59px;
 }
