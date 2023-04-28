@@ -104,14 +104,14 @@
         display: flex;
         flex-direction: column;
         transform: translateY(-105%);
+    }
+    .menu-options-responsive-show {
+        transform: translateY(0);
         background: #33460ac5;
         position: fixed;
         top: 102px;
         left: 0;
         z-index: 1;
         width: 100%;
-    }
-    .menu-options-responsive-show {
-        transform: translateY(0);
     }
 }
