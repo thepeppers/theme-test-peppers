@@ -87,7 +87,7 @@
         gap: 3px;
         padding-right: 19px;
         cursor: pointer;
-        position: absolute;
+        position: fixed;
         top: 23px;
         right: 0;
         z-index: 2;
@@ -104,14 +104,14 @@
         display: flex;
         flex-direction: column;
         transform: translateY(-105%);
-    }
-    .menu-options-responsive-show {
-        transform: translateY(0);
-        background: #33460ac5;
+        background: #304209;
         position: fixed;
         top: 102px;
         left: 0;
         z-index: 1;
         width: 100%;
+    }
+    .menu-options-responsive-show {
+        transform: translateY(0);
     }
 }
