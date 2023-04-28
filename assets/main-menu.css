@@ -89,6 +89,8 @@
         cursor: pointer;
         position: absolute;
         top: 23px;
+        right: 0;
+        z-index: 2;
     }
     .menu-responsive .line {
         width: 25px;
@@ -101,7 +103,13 @@
     .menu-options-responsive {
         display: flex;
         flex-direction: column;
-        transform: translateY(-100%);
+        transform: translateY(-105%);
+        background: #33460ac5;
+        position: fixed;
+        top: 102px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
     }
     .menu-options-responsive-show {
         transform: translateY(0);
