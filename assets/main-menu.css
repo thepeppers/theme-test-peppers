@@ -20,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 13px 0px 13px 0px;
+    position: relative;
 }
 
 .img-logo-bylt {
@@ -27,16 +28,16 @@
     display: flex;
 }
 
-.menu-options {
+.menu-options, .menu-options-responsive {
     display: flex;
     gap: 36px;
 }
 
-.menu-options li {
+.menu-options li, .menu-options-responsive li {
     list-style: none;
 }
 
-.menu-options li a {
+.menu-options li a, .menu-options-responsive li a {
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Sen';
@@ -60,7 +61,7 @@
     padding-top: 1px;
 }
 
-.menu-responsive {
+.menu-responsive, .menu-options-responsive {
     display: none;
 }
 
@@ -77,14 +78,32 @@
     .img-logo-bylt img {
         width: 105px;
     }
+    .img-logo-bylt {
+        padding: 1px 0px 0px 19px;
+    }
     .menu-responsive {
         display: flex;
         flex-direction: column;
         gap: 3px;
+        padding-right: 19px;
+        cursor: pointer;
+        position: absolute;
+        top: 23px;
     }
     .menu-responsive .line {
         width: 25px;
-        height: 1px;
+        height: 3px;
         background: #94D600;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .menu-options-responsive {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-100%);
+    }
+    .menu-options-responsive-show {
+        transform: translateY(0);
     }
 }

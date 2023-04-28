@@ -39,8 +39,28 @@
       <div class="line"><div></div></div>
       <div class="line"><div></div></div>
     </div>
+
+    <ul class="menu-options-responsive">
+      <li> <a href="#">SPORTS DRINKS</a> </li>
+      <li> <a href="#">THE SCIENCE</a> </li>
+      <li> <a href="#">MEDIA</a> </li>
+      <li> <a href="#">ABOUT</a> </li>
+      <li> <a href="#">APPAREL</a> </li>
+      <li> <a href="#">WHERE TO BUY</a> </li>
+    </ul>
   </div>
 </section>
+
+<script>
+
+  const menuToggle = document.querySelector('.menu-responsive')
+  const menuResponsive = document.querySelector('.menu-options-responsive')
+
+  menuToggle.addEventListener('click', ()=>{
+    menuResponsive.classList.toggle('menu-options-responsive-show')
+  })
+
+</script>
 
 
 {% schema %}
