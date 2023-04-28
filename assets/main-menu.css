@@ -53,8 +53,38 @@
 
 .nav-menu .item-one, .nav-menu .item-two, .nav-menu .item-three {
     display: flex;
+    cursor: pointer;
 }
 
 .nav-menu .item-one {
     padding-top: 1px;
+}
+
+.menu-responsive {
+    display: none;
+}
+
+@media (max-width: 1110px) {
+    .menu-options li a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 990px) {
+    .menu-options {
+        display: none;
+    }
+    .img-logo-bylt img {
+        width: 105px;
+    }
+    .menu-responsive {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .menu-responsive .line {
+        width: 17px;
+        height: 1px;
+        background: #94D600;
+    }
 }
