@@ -106,11 +106,12 @@
         flex-direction: column;
         transform: translateY(-105%);
         background: #304209;
-        position: fixed;
-        top: 102px;
+        position: absolute;
+        top: 0px;
         left: 0;
         z-index: 1;
         width: 100%;
+        height: 100vw;
     }
     .menu-options-responsive-show {
         transform: translateY(0);
