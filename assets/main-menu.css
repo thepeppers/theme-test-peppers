@@ -102,6 +102,7 @@
     }
     .menu-options-responsive {
         display: flex;
+        visibility: hidden;
         flex-direction: column;
         transform: translateY(-105%);
         background: #304209;
@@ -113,5 +114,6 @@
     }
     .menu-options-responsive-show {
         transform: translateY(0);
+        visibility: visible;
     }
 }
