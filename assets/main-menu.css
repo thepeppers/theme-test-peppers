@@ -87,8 +87,8 @@
         gap: 3px;
         padding-right: 19px;
         cursor: pointer;
-        position: fixed;
-        top: 23px;
+        position: absolute;
+        top: 20px;
         right: 0;
         z-index: 2;
     }
