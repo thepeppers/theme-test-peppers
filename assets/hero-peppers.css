@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-info-hero {
+    padding-left: 120px;
+    margin-top: 181px;
+    width: 50%;
+}
+
+
+.title-desing {
+    font-family: 'GT America Trial';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 74px;
+    color: #222222;
+    margin-bottom: 24px;
+}
+
+.text-hero-desing {
+    font-family: 'GT America Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #222222;
+    margin-bottom: 46px;
+}
+
+.father-buttoms-hero {
+    display: flex;
+}
+
+.buttom-join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 163px;
+    height: 55px;
+    background: #2F80ED;
+    border-radius: 100px;
+    margin-right: 19px;
+}
+
+
+.text-buttom-join {
+    font-family: 'GT America Trial';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.svg-buttom {
+    margin-left: 10px;
+    display: flex;
+}
+
+.buttom-watch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 184px;
+    height: 55px;
+    border-radius: 100px;
+    border: solid 2px #2F80ED;;
+}
+
+.text-buttom-watch {
+    font-family: 'GT America Trial';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2F80ED;
+}
+
+.container-img-top {
+    display: flex;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.container-first-img-circle {
+    position: relative;
+    left: 63px;
+}
+
+.container-last-img-circle {
+    position: relative;
+    bottom: 108px;
+    display: flex;
+    justify-content: end;
+    padding-right: 120.49px;
+    padding-bottom: 70.54px;
+}
+
+.container-img-hero {
+    width: 50%;
+}
+
+.container-main-img {
+    width: 100%;
+}
+
+.container-main-img img {
+    width: 100%;
+}
+
+@media (max-width:1191px){
+    .container-info-hero {
+        padding-left: 80px;
+        margin-top: 90px;
+        width: 50%;
+    }
+}
+
+@media (max-width:855px){
+    .container-hero {
+        display: block;
+    }
+
+    .container-info-hero {
+        padding-left: 30px;
+        margin-top: 90px;
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .container-img-hero {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:507px){
+    .title-desing {
+        font-size: 55px;
+    }
+}
