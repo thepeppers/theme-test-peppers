@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 
 * {
     margin: 0;
@@ -116,5 +116,178 @@
     .menu-options-responsive-show {
         transform: translateY(0);
         visibility: visible;
+    }
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container-header{
+    position: fixed;
+    display: flex;
+    padding: 48px 36px 23px 64px;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    display: flex;
+    left: 0;
+    z-index: 300;
+    background-color: white;
+}
+
+.container-items-menu {
+    display: flex;
+}
+
+.container-items-nav{
+    display: flex;
+}
+
+.text-item-menu{
+    font-family: 'GT America Trial';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #222222;
+}
+
+
+.container-logo-header{
+    margin-right: 56px;
+    display: flex;
+}
+
+.item-menu-desing {
+    margin-right: 48px;
+}
+
+.container-logo-menu {
+    display: flex;
+    align-items: center;
+}
+
+.text-login {
+    margin-left: 41px;
+}
+
+.buttom-sign {
+    height: 39px;
+    width: 124px;
+    border-radius: 24px;
+    border: 2px solid #2F80ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-sign {
+    font-family: 'GT America Trial';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #2F80ED;
+}
+
+.text-login {
+    font-family: 'GT America Trial';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #222222;
+}
+
+.buttom-login {
+    display: flex;
+    align-items: center;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+}
+
+.burger-menu .line-menu-mobile {
+    width: 31px;
+    height: 4px;
+    background-color: #222;
+    display: flex;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.burger-menu .line-menu-mobile:last-child {
+    margin-bottom: 0;
+}
+
+.container-menu-mobile {
+    display: none;
+    padding: 30px;
+    position: absolute;
+    z-index: 200;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.items-menu-mobile {
+    font-size: 25px;
+}
+
+.active {
+    display: flex;
+}
+
+@media (max-width:1191px){
+    .item-menu-desing {
+        margin-right: 29px;
+    }
+
+    .container-logo-header {
+        margin-right: 48px;
+    }
+
+    .text-login {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1106px){
+    .container-items-menu, .container-items-nav{
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+
+    .text-sign, .text-login{
+        font-size: 25px;
+    }
+
+    .text-login{
+        margin: 0;
+    }
+
+    .buttom-sign-mobile , .text-login{
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width:679px) {
+    .container-header {
+        padding: 48px 36px 23px 33px;
     }
 }

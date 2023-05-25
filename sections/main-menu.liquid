@@ -1,6 +1,6 @@
 {{ 'main-menu.css' | asset_url | stylesheet_tag }}
 
-<section class="main-menu">
+<!-- <section class="main-menu">
   <div class="menu">
     <div class="img-logo-bylt">
       <img src="https://cdn.shopify.com/s/files/1/0757/3284/4845/files/unnamed-BYLT-BLACK_480x-_1.png?v=1682639205" alt="">
@@ -60,7 +60,98 @@
     menuResponsive.classList.toggle('menu-options-responsive-show')
   })
 
+</script> -->
+
+
+<section class="father-header">
+
+  <div class="container-header">
+
+      <div class="container-logo-menu">
+
+          <div class="container-logo-header">
+              <img src="https://cdn.shopify.com/s/files/1/0762/4382/9010/files/Logo_-_Color.png?v=1685019041" alt="" srcset="">
+          </div>
+
+          <div class="container-items-menu">
+
+              <div class="item-menu-desing">
+              <a class="text-item-menu" href="">Browse mentors</a>
+              </div>
+
+              <div class="item-menu-desing">
+                  <a class="text-item-menu" href="">How it works</a>
+              </div>
+
+              <div class="item-menu-desing">
+                  <a class="text-item-menu" href="">Become a mentor</a>
+              </div>
+              
+              <div class="item-menu-desing">
+                  <a class="text-item-menu" href="">Company</a>
+              </div>
+          
+          </div>
+
+      </div>
+
+
+      <div class="container-items-nav">
+
+          <div class="buttom-sign">
+              <a class="text-sign" href="">Sign up</a>
+          </div>
+
+          <div class="buttom-login">
+              <a class="text-login" href="">Login</a>
+          </div>
+
+      </div>
+
+      <div class="burger-menu" id="burguer">
+          <div class="line-menu-mobile"></div>
+          <div class="line-menu-mobile"></div>
+          <div class="line-menu-mobile"></div>
+      </div>
+
+
+
+
+
+
+  </div>
+
+</section>
+
+<section class="container-menu-mobile" id="menu-mobile">
+
+  <div class="menu-mobile">
+      <div class="items-menu-mobile">Browse mentors</div>
+      <div class="items-menu-mobile">How it works</div>
+      <div class="items-menu-mobile">Become a mentor</div>
+      <div class="items-menu-mobile">Company</div>
+      <div class="buttom-sign-mobile">
+          <a class="text-sign" href="">Sign up</a>
+      </div>
+      <div class="buttom-login-mobile">
+          <a class="text-login" href="">Login</a>
+      </div>
+
+  </div>
+
+</section>
+
+<script>
+
+  let burger = document.getElementById('burguer');
+  let menuMobile = document.getElementById('menu-mobile');
+
+  burger.addEventListener('click', function() {
+  menuMobile.classList.toggle ('active')
+  });
+
 </script>
+
 
 
 {% schema %}
