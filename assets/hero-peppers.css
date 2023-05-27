@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400&family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Sen&display=swap');
 
 * {
     margin: 0;
@@ -21,7 +21,7 @@
 
 
 .title-desing {
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 72px;
     line-height: 74px;
@@ -30,7 +30,7 @@
 }
 
 .text-hero-desing {
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -56,7 +56,7 @@
 
 
 .text-buttom-join {
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
@@ -79,7 +79,7 @@
 }
 
 .text-buttom-watch {
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;

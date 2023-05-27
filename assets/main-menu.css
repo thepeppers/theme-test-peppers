@@ -120,7 +120,7 @@
 } */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400&family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Sen&display=swap');
 
 * {
     margin: 0;
@@ -152,7 +152,7 @@
 }
 
 .text-item-menu{
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 19px;
     line-height: 24px;
@@ -191,7 +191,7 @@
 }
 
 .text-sign {
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 19px;
     line-height: 24px;
@@ -199,7 +199,7 @@
 }
 
 .text-login {
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 19px;
     line-height: 24px;

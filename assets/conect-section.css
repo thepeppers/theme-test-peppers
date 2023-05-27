@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400&family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Sen&display=swap');
 
 .connect-section {
     max-width: 1440px;
@@ -21,7 +21,7 @@
 }
 
 .title-connect {
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-size: 34px;
     font-weight: 700;
     line-height: 43px;
@@ -30,7 +30,7 @@
 }
 
 .connect-text {
-    font-family: 'Figtree';
+    font-family: 'Poppins';
     font-size: 18px;
     font-weight: 400;
     line-height: 23px;
