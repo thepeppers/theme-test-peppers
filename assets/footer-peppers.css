@@ -20,6 +20,7 @@
 .text-group {
     display: flex;
     flex-direction: column;
+    position: relative;    
 }
 
 .txt-main {
@@ -44,5 +45,10 @@
 .input {
     border: none;
     height: 40px;
-    padding: 6px 0px 0px 20px;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+
+.svg-input {
+    position: absolute;
 }
