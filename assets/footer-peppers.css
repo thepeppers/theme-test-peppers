@@ -76,4 +76,14 @@
     .text-group {
         align-items: center;
     }
+    .txt-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .txt-normal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
