@@ -26,7 +26,7 @@
 .txt-main {
     font-family: 'Poppins';
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 23px;
     min-width: 155px;
     padding-bottom: 16px;
@@ -47,8 +47,16 @@
     height: 40px;
     padding-left: 20px;
     margin-top: 6px;
+    background-color: #F6F6F6;
+    color: #222222;
+}
+
+::placeholder {
+    color: #f6f6f686;
 }
 
 .svg-input {
     position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
