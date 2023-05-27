@@ -17,7 +17,6 @@
 .svg-one {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     min-width: 352px;
 }
@@ -29,6 +28,7 @@
     line-height: 43px;
     text-align: center;
     margin-top: 48px;
+    color: #222222;
 }
 
 .connect-text {
@@ -38,4 +38,39 @@
     line-height: 23px;
     text-align: center;
     margin-top: 4px;
+    color: #222222;
+}
+
+@media (max-width:1050px) {
+    .svg-one {
+        min-width: 230px;
+        max-width: 250px;
+    }
+    .title-connect {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:950px) {
+    .title-connect {
+        font-size: 26px;
+    }
+    .connect-text  {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:720px) {
+    .connect-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .title-connect {
+        margin-top: 20px;
+    }
+    .svg-one {
+        min-width: 230px;
+        max-width: 330px;
+    }
 }
