@@ -57,6 +57,23 @@
 
 .svg-input {
     position: absolute;
-    bottom: 15px;
+    bottom: 5px;
     right: 15px;
+}
+
+@media (max-width:980px){
+    .main-footer-content {
+        gap: 35px;
+        padding: 0px 64px;
+    }
+}
+
+@media (max-width:850px){
+    .main-footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-group {
+        align-items: center;
+    }
 }

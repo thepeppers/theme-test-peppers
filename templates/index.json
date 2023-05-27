@@ -24,6 +24,11 @@
       "type": "footer-mentor",
       "settings": {
       }
+    },
+    "foot": {
+      "type": "foot",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -31,6 +36,7 @@
     "hero_peppers",
     "slider_peppers",
     "conect_section",
-    "footer_mentor"
+    "footer_mentor",
+    "foot"
   ]
 }
