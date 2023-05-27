@@ -8,6 +8,7 @@
 .connect-content {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .svg-one {
@@ -23,6 +24,7 @@
     font-weight: 700;
     line-height: 43px;
     text-align: center;
+    margin-top: 48px;
 }
 
 .connect-text {
@@ -31,4 +33,5 @@
     font-weight: 400;
     line-height: 23px;
     text-align: center;
+    margin-top: 4px;
 }
