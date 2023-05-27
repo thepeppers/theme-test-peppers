@@ -9,3 +9,26 @@
     display: flex;
     justify-content: space-around;
 }
+
+.svg-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-connect {
+    font-family: 'GT America Trial';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+}
+
+.connect-text {
+    font-family: 'GT America Trial';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
