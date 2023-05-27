@@ -120,6 +120,8 @@
 } */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400&family=Sen&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -150,7 +152,7 @@
 }
 
 .text-item-menu{
-    font-family: 'GT America Trial';
+    font-family: 'Figtree';
     font-weight: 400;
     font-size: 19px;
     line-height: 24px;
@@ -189,7 +191,7 @@
 }
 
 .text-sign {
-    font-family: 'GT America Trial';
+    font-family: 'Figtree';
     font-weight: 400;
     font-size: 19px;
     line-height: 24px;
@@ -197,7 +199,7 @@
 }
 
 .text-login {
-    font-family: 'GT America Trial';
+    font-family: 'Figtree';
     font-weight: 400;
     font-size: 19px;
     line-height: 24px;
