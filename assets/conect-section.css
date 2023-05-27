@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Sen&display=swap');
 
 .connect-section {
     max-width: 1440px;
@@ -18,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 352px;
 }
 
 .title-connect {
