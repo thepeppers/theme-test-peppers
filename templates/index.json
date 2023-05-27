@@ -19,12 +19,18 @@
       "type": "conect-section",
       "settings": {
       }
+    },
+    "footer_mentor": {
+      "type": "footer-mentor",
+      "settings": {
+      }
     }
   },
   "order": [
     "main_menu",
     "hero_peppers",
     "slider_peppers",
-    "conect_section"
+    "conect_section",
+    "footer_mentor"
   ]
 }
